@@ -1,13 +1,14 @@
-package com.coursework3.telebot;
+package telebot.src.main.java.com.coursework3.telebot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
+@EnableScheduling
 public class TelebotApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TelebotApplication.class, args);
 	}
-
 }
